@@ -17,7 +17,8 @@ img {
   position: absolute;
   bottom: -100%;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: auto;
+  width: 240px;
 }
 #cvs {
   display: none;

@@ -12,7 +12,8 @@
   var preview = $('preview')
   var imageContainer = $('image')
   var defaultText = imgs[0]
-  var current = 0
+  var current = Math.floor(Math.random() * 100 % imgs.length)
+  console.log(current)
   var img
 
   preview.crossOrigin = 'anonymous'
