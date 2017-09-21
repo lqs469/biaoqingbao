@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width,maximum-scale=1.0,minimum-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>老板对你的表情包很满意，于是决定开始招新人</title>
+    <link href='./index.css' rel='stylesheet' />
+</head>
+
+<body>
+    <div class='wrap'>
+        <h1>包情表产生器</h1>
+        <div class='canvas'>
+            <canvas width='240' height='240' id='cvs'></canvas>
+            <img id='preview' />
+        </div>
+        <div class='img-change'>
+          <div id='left'>上一张</div>
+          <div id='right'>下一张</div>
+        </div>
+        <div class='help'>长按图片发送或保存</div>
+
+        <div class='controller'>
+            <div class='line'><input placeholder='输入文字' id='input' /></div>
+            <div class='line'><a href='javascript:void(0);' id='btn'>加班</a></div>
+        </div>
+        <div id='image' />
+    </div>
+    <script src='./main.js'></script>
+</body>
+
+</html>
