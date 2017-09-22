@@ -53,7 +53,7 @@
     ctx.font = 'bold 20px sans-serif'
     ctx.textAlign = 'center'
     ctx.fillStyle = 'red'
-    ctx.fillText(src.replace(/.\//, '').replace(/\.[\d\D]+/, ''), cvs.width / 2, cvs.height - 10, cur.width)
+    ctx.fillText(src.replace(/.\/images\//, '').replace(/\.[\d\D]+/, ''), cvs.width / 2, cvs.height - 10, cur.width)
     preview.src = cvs.toDataURL('image/png')
   }
 
