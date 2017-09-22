@@ -79,9 +79,7 @@
     false
   )
 
-  left.addEventListener(
-    'click',
-    function(e) {
+  left.addEventListener('click', function(e) {
       e.preventDefault()
       if (current < 1) {
         current = imgs.length - 1
@@ -92,6 +90,11 @@
     },
     false
   )
+
+  $('clear').addEventListener('click',  function(e) {
+      e.preventDefault()
+      input.value = ''
+  })
 
   function convert() {
     defaultText = imgs[current]

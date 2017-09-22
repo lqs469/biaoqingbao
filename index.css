@@ -53,6 +53,7 @@ img {
 }
 .controller .line {
   margin: 16px 0;
+  position: relative;
 }
 .controller input {
   border: 1px solid #999;
@@ -75,6 +76,12 @@ img {
   box-sizing: border-box;
   display: block;
 }
-.controller a:active {
-  background-color: #4da1ff;
+.clear {
+  color: red;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: -25px;
+  font-size: 25px;
 }
