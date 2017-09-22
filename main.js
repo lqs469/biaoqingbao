@@ -3,7 +3,23 @@
     return document.getElementById(id)
   }
 
-  var imgs = ['出月饼 只要998.jpg', '害你加班的bug就是我写的.png', '带上它你将得到力量.jpeg', '要坚强.png', '交个朋友吧.png', '世风日下道德沦丧.png']
+  var imgs = [
+    '改不了 这个需求改不了.jpg',
+    '说！以后还敢不敢加需求.jpg',
+    '又忘了发周报了.jpg',
+    '这里没有我这条咸鱼的容身之地.jpg',
+    '代码里有毒！.jpg',
+    '这周周报就决定你来写了.jpg',
+    '歪！请问你有freestyle吗？.jpg',
+    '我没说过这句话.jpg',
+    '哟 写bug呢.jpg',
+    '出月饼 只要998.jpg',
+    '害你加班的bug就是我写的.png',
+    '带上它你将得到力量.jpeg',
+    '要坚强.png',
+    '交个朋友吧.png',
+    '世风日下道德沦丧.png'
+  ]
   var cvs = $('cvs')
   var btn = $('btn')
   var left = $('left')
